@@ -16,3 +16,4 @@ src
 .idea/
 venv/
 venv3/
+.eggs/
