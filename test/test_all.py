@@ -11,7 +11,7 @@
 
 '''
 
-from __future__ import absolute_import, unicode_literals
+from __future__ import absolute_import
 
 from flask import Flask
 from flask.ext.sqlalchemy import SQLAlchemy
@@ -58,7 +58,7 @@ class ObjectB(db.Model, BlogishBlob):
 class ObjectC(db.Model, BlogishBlob):
     __tablename__ = 'objectC'
     __searchable__ = ['title', 'field_that_doesnt_exist']
-    
+
 class ObjectD(db.Model, BlogishBlob):
     __tablename__ = 'objectD'
     __searchable__ = ['title']
@@ -278,7 +278,7 @@ class Tests(TestCase):
         db.session.add(ObjectD(title=u'Travelling', content=u'Stemming'))
         db.session.add(ObjectD(title=u'travel', content=u'Unstemmed and normal'))
         db.session.add(ObjectD(title=u'trevel', content=u'Mispelt'))
-        
+
         db.session.commit()
         # When mispelt on either the indexed side or the query side, they should all return 3 due to the DoubleMetaphoneFilter
         self.assertEqual(len(list(ObjectD.query.whoosh_search('travelling'))), 3)

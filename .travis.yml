@@ -3,7 +3,6 @@ python:
 # Travis seems to be having trouble installing 2.5, drop testing on 2.5 for now
   - "2.6"
   - "2.7"
-  - "3.2"
   - "3.3"
   - "3.4"
   - "pypy"
