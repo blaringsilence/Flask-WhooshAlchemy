@@ -3,6 +3,8 @@ Welcome to Flask-WhooshAlchemy!
 
 .. image:: https://circleci.com/gh/dhamaniasad/Flask-WhooshAlchemy/tree/master.svg?style=shield
     :target: https://circleci.com/gh/dhamaniasad/Flask-WhooshAlchemy/tree/master
+.. image:: https://img.shields.io/pypi/v/Flask-WhooshAlchemy-Redux.svg
+    :target: https://pypi.python.org/pypi/Flask-WhooshAlchemy-Redux
 
 Flask-WhooshAlchemy is a Flask extension that integrates the text-search functionality of Whoosh_ with the ORM of SQLAlchemy_ for use in Flask_ applications.
 
