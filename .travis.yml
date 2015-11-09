@@ -1,6 +1,6 @@
 language: python
 python:
-  - "2.5"
+# Travis seems to be having trouble installing 2.5, drop testing on 2.5 for now
   - "2.6"
   - "2.7"
   - "3.2"
