@@ -15,3 +15,4 @@ lib
 src
 .idea/
 venv/
+.eggs/
