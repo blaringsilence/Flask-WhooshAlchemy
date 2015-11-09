@@ -1,7 +1,7 @@
 Welcome to Flask-WhooshAlchemy!
 ===============================
 
-[![image](https://circleci.com/gh/dhamaniasad/Flask-WhooshAlchemy/tree/master.svg?style=shield)](https://circleci.com/gh/dhamaniasad/Flask-WhooshAlchemy/tree/master) [![image](https://img.shields.io/pypi/v/Flask-WhooshAlchemy-Redux.svg)](https://pypi.python.org/pypi/Flask-WhooshAlchemy-Redux)
+[![Build Status](https://travis-ci.org/dhamaniasad/Flask-WhooshAlchemy.svg?branch=master)](https://travis-ci.org/dhamaniasad/Flask-WhooshAlchemy) [![image](https://circleci.com/gh/dhamaniasad/Flask-WhooshAlchemy/tree/master.svg?style=shield)](https://circleci.com/gh/dhamaniasad/Flask-WhooshAlchemy/tree/master) [![image](https://img.shields.io/pypi/v/Flask-WhooshAlchemy-Redux.svg)](https://pypi.python.org/pypi/Flask-WhooshAlchemy-Redux)
 
 Flask-WhooshAlchemy is a Flask extension that integrates the text-search functionality of [Whoosh](https://bitbucket.org/mchaput/whoosh/wiki/Home) with the ORM of [SQLAlchemy](http://www.sqlalchemy.org/) for use in [Flask](http://flask.pocoo.org/) applications.
 
