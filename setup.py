@@ -11,13 +11,13 @@ import os
 
 setup(
     name='Flask-WhooshAlchemy-Redux',
-    version='0.6.2',
+    version='0.6.3',
     url='https://github.com/dhamaniasad/Flask-WhooshAlchemy',
     license='BSD',
     author='Asad Dhamani',
     author_email='dhamaniasad+code@gmail.com',
     description='Whoosh extension to Flask/SQLAlchemy',
-    long_description=open(os.path.join(os.path.dirname(__file__), 'README.rst')).read(),
+    long_description=open(os.path.join(os.path.dirname(__file__), 'README.md')).read(),
 
     py_modules=['flask_whooshalchemy'],
     zip_safe=False,
