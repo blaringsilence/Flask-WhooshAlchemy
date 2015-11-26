@@ -124,7 +124,8 @@ class _QueryProxy(flask_sqlalchemy.BaseQuery):
             # be a query.
 
             # XXX is this efficient?
-            return self.filter('null')
+            # explicitly set text('null') to avoid a warning in output
+            return self.filter(sqlalchemy.text('null'))
 
         result_set = set()
         result_ranks = {}
